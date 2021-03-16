@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="profile__image__container">
+    <img src="{{ profile.photo }}" alt="{{ profile.fio }}" />
+  </div>
+
+  <div class="contact__info">
+    <div class="container__with__label">
+      <span class="material-icons">account_box</span>
+      <h1 class="label">{{ profile.fio }}</h1>
+    </div>
+    <div class="container__with__label">
+        <span class="material-icons">home</span>
+      <h2 class="label">{{ profile.city }}</h2>
+    </div>
+    <div class="container__with__label">
+        <span class="material-icons">phone</span>
+      <h2 class="label">{{ profile.phone }}</h2>
+    </div>
+    <div class="container__with__label">
+        <span class="material-icons">email</span>
+      <h2 class="label">{{ profile.email }}</h2>
+    </div>
+  </div>
+</div>
