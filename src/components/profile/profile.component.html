@@ -9,16 +9,24 @@
       <h1 class="label">{{ profile.fio }}</h1>
     </div>
     <div class="container__with__label">
-        <span class="material-icons">home</span>
+      <span class="material-icons">home</span>
       <h2 class="label">{{ profile.city }}</h2>
     </div>
     <div class="container__with__label">
-        <span class="material-icons">phone</span>
+      <span class="material-icons">phone</span>
       <h2 class="label">{{ profile.phone }}</h2>
     </div>
     <div class="container__with__label">
-        <span class="material-icons">email</span>
+      <span class="material-icons">email</span>
       <h2 class="label">{{ profile.email }}</h2>
     </div>
+  </div>
+</div>
+
+<div class="container__with__additional__info">
+  <app-skill></app-skill>
+  <div class="info">
+    <app-education></app-education>
+    <app-social-network></app-social-network>
   </div>
 </div>

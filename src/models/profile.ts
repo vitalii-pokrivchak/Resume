@@ -4,4 +4,7 @@ export interface IProfile {
     phone: string;
     city: string;
     photo: string;
+    github: string;
+    linkedIn: string;
+    twitter: string;
 }

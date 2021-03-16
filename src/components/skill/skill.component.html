@@ -1,0 +1,9 @@
+<div class="main">
+  <h1>Skills</h1>
+  <ul *ngFor="let skill of skills">
+    <li class="skill__item">
+      {{ skill.name }}
+      <app-progress [percent]="skill.progress"></app-progress>
+    </li>
+  </ul>
+</div>
